@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="Pagetransition.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    a{
+        cursor: none;
+    }
+</style>
+<body id="body">
+
+    <nav> 
+    <div class="navbox">
+        <div class="logo">Hardik..</div>
+
+
+            <div class="nav">
+                
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Contact1.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+    </div>
+    </nav>
+
+
+    <div class="mainbody">
+        <div class="greet">
+            <h1>Hi, I'm <span> Hardik.</span></h1><br>
+            <hr>
+            <section>A <span> Bs.CSIT Student.</span></section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Sapiente harum autem atque ad eius facere modi alias voluptas eligendi ab?</p>
+
+            <button onclick="openpopup()" class="but1">Find me</button>
+
+        </div>
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+
+        <div class="popup" id="popupid">
+        <button onclick="closepopup()" class="closebutton">&times;</button>
+    
+            <div class="linkedin" id="linked">
+                <img src="linkedin.png" height="78px" style="margin-left: 1.2px; margin-top: 0.5px;">
+                <div class="hidden">To view my linkedIn page <br> <a href="https://www.linkedin.com/in/hardik-shakya-231139339/" style="margin-left: 10px;" target="_blank"> : CLICK HERE :</a></div>
+            </div>
+            <div class="discord" id="dis">
+              <img src="discord.png" height="80px">
+                <div class="hidden1">Add me on discord at: <br><span style="color: red;">devilphantom3969</span></div>
+            </div>
+            <div class="steam" id="ste">
+                <img src="steam.png" height="80px">
+                <div class="hidden2">Add me on steam at: <br><span style="color: red;">DevilPhantom</span></div>
+            </div>
+            <hr style=" margin: 30px;">
+            <div class="hint">Hover over the Icons.</div>
+        </div>
+
+
+    </div>
+<script>
+    let popup = document.getElementById("popupid");
+    let linkedin = document.getElementById("linked");
+    let discord = document.getElementById("dis");
+    let steam = document.getElementById("ste");
+    
+    function openpopup(){
+        popup.classList.add("open-popup");
+        linkedin.classList.remove("popend");
+        steam.classList.remove("popend");
+        discord.classList.remove("popend");
+
+    }
+    function closepopup(){
+        popup.classList.remove("open-popup");
+        linkedin.classList.add("popend");
+        steam.classList.add("popend");
+        discord.classList.add("popend");
+    }
+</script>
+    
+    
+    
+    
+    <div class="cursorbox">
+        <div class="cursor"></div>
+        <script type="text/javascript">
+        const cursor=document.querySelector(".cursor");
+        var Timeout;
+
+            document.addEventListener("mousemove", (e) => {
+                let x = e.pageX;
+                let y = e.pageY;
+
+                cursor.style.top = y+"px";
+                cursor.style.left = x +"px";
+                cursor.style.display="block";
+
+                function mouseStop(){
+                    cursor.style.display = "none";
+                }
+                clearTimeout(Timeout);
+                Timeout = setTimeout(mouseStop,1300);
+
+            });
+
+            document.addEventListener("mouseout",()=>{
+                cursor.style.display = "none"
+            });
+ 
+        </script>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Pagetransition.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    a{
+    cursor: none;
+}
+
+</style>
+
+<body>
+    <nav>
+        <div class="navbox">
+            <div class="logo">Hardik..</div>
+                <div class="nav">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact1.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav> 
+    <div class="aboutmeMain">
+        <div class="aboutbox">
+            <div class="aboutme" style="display: flex;">
+                <h1>About <span>ME:</span></h1>
+                <div class="para" style="display: flex; margin-top: 20px;">
+                    <img src="user.png" width="100px" height="100px" alt="I dont have a good image of me" style=" margin-left: 35px; margin-top: 130px;">
+                    <p style="padding: 5%; position: absolute; margin-top: 10%; margin-left: 125px;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi Again! I am Hardik Shakya, I am a computer science enthusiast and currently pursuing a 
+                        Bachelor's degree in Computer Science and Information Technology (Bs.CSIT) at Deerwalk College. 
+                        I have a creative soul with a passion for sketching and a growing skillset in coding. 
+                        I am eager to explore the world of technology and develop my abilities further.<br><br>
+                        To know more about my Academics : <br>
+                    </p>
+                </div>
+
+                <a href="Not_an_Actual_CV.pdf" target="_blank">
+                    <button> CLICK HERE.</button>
+                </a>
+                
+            </div>
+        </div>
+    
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="cursorbox">
+            <div class="cursor"></div>
+            <script type="text/javascript">
+            const cursor=document.querySelector(".cursor");
+            var Timeout;
+    
+                document.addEventListener("mousemove", (e) => {
+                    let x = e.pageX;
+                    let y = e.pageY;
+    
+                    cursor.style.top = y+"px";
+                    cursor.style.left = x +"px";
+                    cursor.style.display="block";
+    
+                    function mouseStop(){
+                        cursor.style.display = "none";
+                    }
+                    clearTimeout(Timeout);
+                    Timeout = setTimeout(mouseStop,1300);
+    
+                });
+    
+                document.addEventListener("mouseout",()=>{
+                    cursor.style.display = "none"
+                });
+     
+            </script>
+    </div> 
+</body>
+</html>

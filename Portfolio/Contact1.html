@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="PageSlideout.css">
+    <link rel="stylesheet" href="Contact1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    a{
+    cursor: none;
+}
+
+</style>
+
+<body>
+    <nav>
+        <div class="navbox">
+            <div class="logo">Hardik..</div>
+                <div class="nav">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact1.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+    </nav> 
+
+        <div class="aboutmeMain">
+            <div class="aboutbox">
+                <div class="aboutme" style="display: flex;">
+                    <h1>Contact <span>ME:</span></h1>
+                    <div class="para" style="display: inline-block; margin-top: 100px; margin-left: 50px;">
+                        <form>
+                            <uL style="list-style-type: none;">
+                                <li>
+                                    <label>Full Name:</label><br>
+                                    <input type="text" required="required">
+                                </li>
+                                <li>
+                                    <label>Email:</label><br>
+                                    <input type="email" required="required">
+                                </li>
+                                <li>
+                                    <label>Message:</label><br>
+                                    <textarea></textarea>
+                                </li>
+                                <button>Submit</button>
+                            </uL>
+                        </form>
+                    </div>
+                    <div class="line1"></div>
+                    <img src="imagecontact.jpg" height="460" >
+                </div>
+                
+            </div>
+            
+            <div class="circles">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+        </div>
+
+    <div class="cursorbox">
+            <div class="cursor"></div>
+            <script type="text/javascript">
+            const cursor=document.querySelector(".cursor");
+            var Timeout;
+    
+                document.addEventListener("mousemove", (e) => {
+                    let x = e.pageX;
+                    let y = e.pageY;
+    
+                    cursor.style.top = y+"px";
+                    cursor.style.left = x +"px";
+                    cursor.style.display="block";
+    
+                    function mouseStop(){
+                        cursor.style.display = "none";
+                    }
+                    clearTimeout(Timeout);
+                    Timeout = setTimeout(mouseStop,1300);
+    
+                });
+    
+                document.addEventListener("mouseout",()=>{
+                    cursor.style.display = "none"
+                });
+     
+            </script>
+    </div> 
+</body>
+</html>

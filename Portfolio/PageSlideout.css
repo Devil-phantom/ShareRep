@@ -1,0 +1,116 @@
+.aboutbox{
+    animation-name: transition;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+
+@keyframes transition{
+    from{
+        transform: translateX(0%);
+    }   
+    to{
+        transform: translateX(95%);
+    }
+}
+
+
+
+.aboutme h1{
+    animation-name: transition1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+
+}
+.aboutme form{
+    animation-name: transition1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+
+}
+.aboutme .eye{
+    animation-name: transition1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+
+}
+
+@keyframes transition1{
+    from{
+        opacity:0;
+        transform: rotateX('10deg');
+    }   
+    to{
+        opacity: 1;
+        transform: rotateX('0deg');
+
+    }
+}
+
+.circle1{
+    animation-name: circletran1;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+.circle2{
+    animation-name: circletran2;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+.circle3{
+    animation-name: circletran3;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+.circle4{
+    animation-name: circletran4;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes circletran1{
+    from{
+        transform: translate(110%,80%);
+    }
+    to{
+        transform: translate(-150%,80%);
+    }
+}
+
+@keyframes circletran2{
+    from{
+        transform:  translate(1%,-60%);
+    }
+    to{
+        transform:  translate(-99%,-60%);
+    }
+}
+
+@keyframes circletran3{
+    from{
+        transform:  translate(600%,-600%);
+    }
+    to{
+        transform:  translate(-600%,-600%);
+    }
+}
+
+@keyframes circletran4{
+    from{
+        transform:  translate(500%,-1300%);
+    }
+    to{
+        transform:  translate(-500%,-1300%);
+    }
+}
