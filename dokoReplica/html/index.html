@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/hiddentext.css">
+    <link rel="stylesheet" href="../CSS/slide.css">
+    <link rel="stylesheet" href="../CSS/PageTransition.css">
+    <link rel="stylesheet" href="../CSS/navbarTransition.css">
+    <link rel="stylesheet" href="../CSS/col2Transition.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="overlay2"></div>
+
+    <div class="navigation">
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">doko.</a></div>
+        <nav>
+            <ul>
+               <li>
+                    <a href="index.html">Home</a> 
+                </li> 
+               <li>
+                    <a href="Form.html">Forms</a>
+                </li> 
+               <li>
+                    <a href="https://doko.dwit.edu.np/dwit_exam/show" target="_blank">DWIT Exam Papers</a> <!--No-Time so linked to the official website-->
+                </li> 
+               <li>
+                    <a href="https://doko.dwit.edu.np/tu_exam/show" target="_blank">TU Exam Papers</a><!--No-Time so linked to the official website-->
+                </li> 
+                <li>
+                    <button onclick="openpopup()">Log In</button>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+<main>
+
+
+    <div class="col1">
+
+        <div class="whatsDOKObox1">
+            <div class="head">
+                <h1>What is <span>doko</span>?</h1> 
+            </div>
+            <hr>
+            <div class="dokoInfo">
+                Doko is (Nepali: डोको) is a Nepali word for a bamboo basket. These kind of baskets are popular all across the country to carry stuff. 
+                Doko, here, kind of represents similar basket. The idea here is to have a one-stop portal - or basket - where students can find all 
+                the necessary stuff required during their four years of bachelors program. These items include college and university forms, past papers 
+                of both college and university exams, information about club-related activities, and profiles of each of the students who have studied or 
+                are studying in Deerwalk Institute of Technology.
+            </div>
+        </div>
+    <div class="body2">
+        <div class="clubDetail">Current Club Details:</div>
+        <div class="clubinfo">
+            <div class="slider">
+
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <div class="club-info-container">
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the artistas.png" height="200px" style="transform: translate(-60px,-60px); position: absolute;">
+                        <div class="topic">
+                            <h2>The Artistas CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Ansa Bhandari.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Kritishma Singh Maharjan.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.facebook.com/TheArtistasOfDWIT/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Reewaz Bikram Kunwar.
+                                    </li>
+                                    <li>
+                                        Suprit Phuyal.
+                                    </li>
+                                    <li>
+                                        Srijan Dahal.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the deerexpress.png" height="180px" style="transform: translate(-50px,-50px); position: absolute;">
+                        <div class="topic">
+                            <h2>The DeerExpress CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Ritu Pudasaini.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Biraj Sangat.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=xA9Ba94wUik" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/deerexpressofficial/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Ritu Pudasaini.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the dataSociety.png" height="250px" style="transform: translate(-80px,-84px); position: absolute;">
+                        <div class="topic">
+                            <h2>The Data Society CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Akhilesh Sharma.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Pranita Karki.
+                            </li>
+                            <li style="list-style-type:none ;">
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                      Sneha Shrestha.
+                                    <li>
+                                        Rahul Shah. 
+                                    </li>
+                                    <li>
+                                        Sagar Bhusal.
+                                    </li>
+                                    <li>
+                                        Gaurab Neupane. 
+                                    </li>
+                                    <li>
+                                        Arun Mainali.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the developer community.png" height="200px" style="transform: translate(-58px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Deerwalk Developer Community<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Krish Devkota
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Pranjal Raut
+                            </li>
+                            <li style="list-style-type:none ;">
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Samrat Nakarmi.
+                                    </li>
+                                    <li>
+                                        Suprit Phuyal. 
+                                    </li>
+                                    <li>
+                                        Aashutosh Pudasaini. 
+                                    </li>
+                                    <li>
+                                        Srijan Dahal.
+                                    </li>
+                                    <li>
+                                        Newton Tiwari.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the literatureSociety.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2>The Deerwalk Literature Society<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Princika Chapagain.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Shreema Bhandari.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.facebook.com/dwitbookclub/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Ishan Shrestha.
+                                    </li>
+                                    <li>
+                                        Dirasha Rajbhandari.
+                                    </li>
+                                    <li>
+                                        Paruhangma Limbu.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the sports club.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The DWIT Sports CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Srijal Joshi.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Kaustuv Shrestha.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=BR30Sbmx_ns" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/officialdwitsportsclub/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Abhinav Bista
+                                    </li>
+                                    <li>
+                                        Deep Singh Rawal
+                                    </li>
+                                    <li>
+                                        Kirtan Malakar
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the hikingclub.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Hiking CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Shrey Dip Bhandari.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Bishrut Uprety.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=VTDmAG_yy1A" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/DWITHiking/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Aashish Kadel.
+                                    </li>
+                                    <li>
+                                        Sameer Nepal.
+                                    </li>
+                                    <li>
+                                        Mandika Thapa Magar.
+                                    </li>
+                                    <li>
+                                        Samyam Bista.
+                                    </li>
+                                    <li>
+                                        Saugat KC.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                   
+                    <div class="artClub1">
+                        <img src="../images/club logos/the newsandmedia.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The News & Media CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Adhit Upadhyay.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Sakshi Sapkota.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/channel/UCkyucMwCIBSqOV_oFHcq9cg/feed" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                   
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Sandhya Sharma.
+                                    </li>
+                                    <li>
+                                        Anbit Bhattarai.
+                                    </li>
+                                    <li>
+                                        Pranil Prasai.
+                                    </li>
+                                    <li>
+                                        Ranjan Nembang.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the music.png" height="200px" style="transform: translate(-60px,-55px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Music CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Arunesh Manandhar.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Bijan Kc Bhurtel.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=ZTJStVI9hRs" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    
+                                    <a href="" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Rupesh Thapa.
+                                    </li>
+                                    <li>
+                                        Shivank Poudel.
+                                    </li>
+                                    <li>
+                                        Yashaswi Shiwakoti.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the socialService.png" height="200px" style="transform: translate(-60px,-56px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Social Service CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Ashwinee Parajuli.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Subikshya Acharya.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=sjTapBM7yxE" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/dwitsocialserviceclub/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Kriti Chimariya.
+                                    </li>
+                                    <li>
+                                        Samrat Nakarmi.
+                                    </li>
+                                    <li>
+                                        Ayush Thapaliya.
+                                    </li>
+                                    <li>
+                                        Rashihang Rai.
+                                    </li>
+                                    <li>
+                                        Faruka Ghimire.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the software.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Software CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Dipan Silwal.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Pragalva Sapkota.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/watch?v=OUTDwkyXhWc&t=19s" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/dwit.softwareclub/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Arun Mainali.
+                                    </li>
+                                    <li>
+                                        Prajwol Bohara.
+                                    </li>
+                                    <li>
+                                        Sukriti Pyakurel.
+                                    </li>
+                                    <li>
+                                        Parth Poudyal.
+                                    </li>
+                                    <li>
+                                        Saurav Bhandari.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="artClub1">
+                        <img src="../images/club logos/the spotlight.png" height="200px" style="transform: translate(-60px,-58px); position: absolute;">
+                        <div class="topic">
+                            <h2> The Spotlight CLUB<hr></h2>
+                            <p>Deerwalk Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="artClub2">
+                        <ul  style="list-style-type: circle;" class="VIP">
+                            <li>
+                                President: Kohinoor Shrestha.
+                            </li>
+                            <li style="margin-top: 6px;">
+                                Vice-President: Sneha Shrestha.
+                            </li>
+                            <li style="list-style-type:none ;">
+                                <div class="linkImage">
+                                    <a href="https://www.youtube.com/channel/UCkctBSytAkWSsc05OQve7ZA" target="_blank"><img src="../images/link icons/youtube.png" height="40px"></a>
+                                    <a href="https://www.facebook.com/DWITSpotlight/" target="_blank"><img src="../images/link icons/facebook.png" height="40px" style="margin-left: 10px;"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <hr style="margin-top: 20px; margin-left: 150px; margin-bottom: 20px;">
+
+                        <ul  style="list-style-type: circle; margin-top: 20px;">
+                            <li>
+                                Members:
+                            </li>
+                            <li style="list-style-type: none;">
+                                <ul style="margin-top: 10px;list-style-type:none ;">
+                                    <li>
+                                        Sagar Bhusal.
+                                    </li>
+                                    <li>
+                                        Yojana Gajurel.
+                                    </li>
+                                    <li>
+                                        Rubin Karki.
+                                    </li>
+                                    <li>
+                                        Sepia Shestha.
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <div class="col2">
+        <div class="hint"> 
+            Hover over the icons below.
+        </div>
+        <div class="totalstd">
+                <div class="icon1">
+                    <img src="../images/icon/student.png" height="120px">
+                </div> 
+                <div class="std">
+                    TOTAL<br>STUDENTS
+                </div>
+                <div class="line"></div>
+                <div class="hidden1">
+                    There are currently <span style="font-weight: bold;">704</span> students.
+                </div>
+        </div>
+        <br>
+        <div class="CSIT">
+                <div class="icon2">
+                    <img src="../images/icon/batchlor.png" height="180px">
+                </div> 
+                <div class="std">
+                    BsCSIT<br>BATCHES
+                </div>
+                <div class="line"></div>
+                <div class="hidden2">
+                    There are currently 14 Batches.<br>To view them <a href="CSITbatches.html">CLICK HERE</a>
+                </div>
+
+        </div>
+        <br>
+        <div class="BCA">
+                <div class="icon2">
+                    <img src="../images/icon/batchlor.png" height="180px">
+                </div> 
+                <div class="std">
+                    BCA<br>BATCHES
+                </div>
+                <div class="line"></div>
+                <div class="hidden3">
+                    There are currently 7 Batches.<br>To view them <a href="BCAbatches.html">CLICK HERE</a>
+                </div>
+        </div>
+        <br>
+        <div class="CLUB">
+                <div class="icon3">
+                    <img src="../images/icon/club.png" height="220px">
+                </div> 
+                <div class="std" style="margin-top: 34px;">
+                    CLUBS
+                </div>
+                <div class="line" style="margin-left: 30px;"></div>
+                <div class="hidden4">
+                    There are currently 12 Clubs available.<br>To view them <a href="Club.html" >CLICK HERE</a>
+                </div>
+        </div>
+
+        <div class="footerLinks">
+        <div class="imgLink">
+            <a href="https://www.facebook.com/dwit.college" target="_blank"><img src="../images/link icons/facebook.png" height="40px"></a>
+            <a href="https://www.linkedin.com/school/deerwalk-institute-of-technology/" target="_blank"><img src="../images/link icons/linkedin.png" height="40px"></a>
+            <a href="https://twitter.com/deerwalkcollege" target="_blank"><img src="../images/link icons/twitter.png" height="40px"></a>
+        </div>
+
+        </div>
+    </div>
+
+</main>
+
+<div class="OVAlog" id="overlayLogIn"></div>
+<div class="LogInbox" id="LogINB">
+    <div class="headLog">
+        <div class="headmain"><h1>Log In</h1> <button onclick="closepopup()">&times;</button></div>
+        <div class="alertinfo">
+            This site credentials is only for DWIT Clubs and<br> Administration <hr style="margin-top: 5px;">
+        </div>
+    </div>
+    <div class="logBody">
+        <div class="ranoutofnames">
+            <div>
+                <label><img src="../images/icon/user.png" height="40px" class="userI"></label>
+                <label><img src="../images/icon/unlock.png" height="40px" class="passwordI"></label>
+            </div>
+            <form>
+                <input type="text" placeholder="Enter Your Username.">
+                <br>
+                <label></label>
+                <input type="password" placeholder="Enter Your Password.">
+                <a href="">ForgotPassword</a>
+                <button type="submit">Let Me In</button>
+            </form>
+        </div>
+
+        
+    </div>
+
+</dsiv>
+
+<script src="../scripts/popup.js"></script>
+<script src="../scripts/sliderscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+.navigation{
+    animation: fromtop;
+    animation-duration: 1s;
+}
+@keyframes fromtop{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform:  translateY(0px);
+    }
+}

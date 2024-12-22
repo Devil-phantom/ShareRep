@@ -1,0 +1,26 @@
+.artClub1{
+    display: flex;
+}
+
+.artClub1 .topic h2{
+    margin-left: 90px;
+}
+.topic{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.topic p{
+    margin-left: 90px;
+}
+
+.artClub2{
+    display: flex;
+    height: 150px;
+}
+.artClub2 ul{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.linkImage{
+    margin-top: 24px;
+}

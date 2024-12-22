@@ -1,0 +1,72 @@
+.hidden1{
+    margin-top: 32px;
+    margin-left: 30px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.313);
+}
+.hidden2{
+    margin-top: 20px;
+    margin-left: 32px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.487);
+}
+.hidden3{
+    margin-top: 20px;
+    margin-left: 32px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.487);
+}
+.hidden4{
+    margin-top: 20px;
+    margin-left: 32px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.487);
+}
+
+.line{
+    height: 60px;
+    width: 1px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.487);
+}
+
+.totalstd:hover .hidden1{
+    opacity:1;
+}
+.CSIT:hover .hidden2{
+    opacity: 1;
+}
+.BCA:hover .hidden3{
+    opacity: 1;
+}
+.CLUB:hover .hidden4{
+    opacity: 1;
+}
+
+.col2 a{
+    color: rgb(4, 23, 51);
+    font-weight: bold;
+    font-size: 17.5px;
+    text-align: right;
+    margin-left: 5px;
+
+}

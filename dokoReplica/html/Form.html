@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/PageTransitionNAVcons.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="overlay2"></div>
+    <div class="navigation">
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">doko.</a></div>
+        <nav>
+            <ul>
+               <li>
+                    <a href="index.html">Home</a>
+                </li> 
+               <li>
+                    <a href="Form.html">Forms</a>
+                </li> 
+               <li>
+                    <a href="https://doko.dwit.edu.np/dwit_exam/show" target="_blank">DWIT Exam Papers</a>
+                </li> 
+               <li>
+                    <a href="https://doko.dwit.edu.np/tu_exam/show" target="_blank">TU Exam Papers</a>
+                </li> 
+                <li>
+                    <button onclick="openpopup()">Log In</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+
+        <div class="formListbox">
+            <br>
+            <br>
+            <div class="heading">
+                <h1>FORM LIST</h1>
+                <div style="font-size: 12px;">Deerwalk Institute Of Technologies</div>
+            </div>
+            <hr style="margin-top: 20px;">
+            <div class="formbody">
+                <form style="margin-top: 10px; margin-left: 20px;">
+                    <div class="search">
+                        <label>Search: </label>
+                        <div class="searchbox">
+                            <input type="text" style="margin-left: 5px;"><!--The Search bar is just for show/dont know how to make it work-->
+                            <button type="submit" style="margin-left: 8px;cursor: pointer;"><img src="../images/link icons/search-interface-symbol.png" height="10px"></button>
+                        </div>
+                    </div>
+                </form>
+
+                <table>
+                    <tr>
+                        <th>
+                            S.N
+                        </th>
+                        <th>
+                            Form Title
+                        </th>
+                        <th>
+                            Download
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            Leave Form
+                        </td>
+                        <td>
+                            <a href="https://doko.dwit.edu.np/form/download/1">Leave Form.doc</a>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </main>
+    <div class="OVAlog" id="overlayLogIn"></div>
+    <div class="LogInbox" id="LogINB">
+        <div class="headLog">
+            <div class="headmain"><h1>Log In</h1> <button onclick="closepopup()">&times;</button></div>
+            <div class="alertinfo">
+                This site credentials is only for DWIT Clubs and<br> Administration <hr style="margin-top: 5px;">
+            </div>
+        </div>
+        <div class="logBody">
+            <div class="ranoutofnames">
+                <div>
+                    <label><img src="../images/icon/user.png" height="40px" class="userI"></label>
+                    <label><img src="../images/icon/unlock.png" height="40px" class="passwordI"></label>
+                </div>
+                <form>
+                    <input type="text" placeholder="Enter Your Username.">
+                    <br>
+                    <label></label>
+                    <input type="password" placeholder="Enter Your Password.">
+                    <a href="">ForgotPassword</a>
+                    <button type="submit">Let Me In</button>
+                </form>
+            </div>
+    
+            
+        </div>
+    
+    </div>
+    
+    <script src="../scripts/popup.js"></script>
+</body>
+</html>

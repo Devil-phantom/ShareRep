@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(18, 38, 67, 0.5); 
+    z-index: -20; 
+
+  }
+  #overlay2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.047),transparent);
+    z-index: -21; 
+
+  }
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.navigation{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(2, 28, 107);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative ;
+    margin-left: 20px;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 80px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+nav ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: rgb(111, 169, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+nav ul li:hover::after{
+    transform: translateY(1px);
+    width:100%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+
+    transition: 0.7s;
+}
+nav ul li a:hover{
+    color:rgb(111, 169, 255);
+    font-size: 20px;
+}
+
+
+nav ul li button{
+    margin-top: -10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 45px;
+
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+
+    background:none;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+nav ul li button:hover{
+    color:rgb(111, 169, 255);
+    font-size: 20px;
+}
+main{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    color: black;
+}
+.formListbox{
+    margin-top: 25px;
+    margin-left: 12%;
+    background-color: white;
+    width: 76%;
+    height: 800px;
+
+    font-family: "Roboto", serif;
+
+
+}
+
+.heading{
+    font-family: "Lora", serif;
+    text-align: center;
+}
+.search{
+    display: flex;
+}
+.searchbox{
+    margin-left: 5px;
+    width: 200px;
+    border: black,solid,2px;
+    border-radius: 45px;
+    align-items: center;
+
+    overflow: hidden;
+}
+.searchbox input{
+    border: none;
+    outline: none;
+}
+.searchbox button{
+    background: none;
+    border: none;
+}
+
+table{
+    width: 76%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 13%;
+    text-align: center;
+}
+th {
+    background-color: rgb(2, 28, 107);
+    color: white;
+  }
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: rgba(2, 28, 107, 0.767);
+    color: white;
+}
+tr:hover a{
+    color: rgb(255, 255, 255);
+}
+
+

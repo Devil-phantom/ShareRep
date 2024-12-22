@@ -1,0 +1,121 @@
+/*login info starts here*/
+.OVAlog{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.549);
+    z-index: 99;
+    visibility: hidden;
+
+}
+.LogInbox{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    z-index: 999;
+    background: linear-gradient(rgb(2, 30, 113),rgb(0, 64, 160),rgb(69, 142, 253),white);
+    border-radius:25px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-family: "Roboto", serif;
+
+    text-align: center;
+
+    visibility: hidden;
+}
+
+.LogInbox h1{
+    padding-top: 30px ;
+    text-decoration: underline;
+
+}
+.LogInbox  .headmain{
+    display: flex;
+    margin-left: 38%;
+    
+}
+.LogInbox  .headmain button{
+    width: 50px;
+    height: 50px;
+
+    font-size: 40px;
+
+    cursor: pointer;
+
+    background: none;
+    border: none;
+
+    font-family: "Roboto", serif;
+    color: white;
+
+    margin-top: -2px;
+    padding-left: 43%;
+}
+
+.LogInbox  .alertinfo{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.logBody button{
+    width: 150px;
+    height: 50px;
+
+    background: rgb(2, 30, 113);
+    border-radius: 45px;
+    border: none;
+
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: larger;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    cursor: pointer;
+}
+
+.LogInbox form{
+    margin-top: 20px;
+}
+.LogInbox form input{
+    width: 220px;
+    height: 30px;
+
+    border-radius: 45px;
+    border: none;
+    margin-bottom: 25px;
+    margin-left: 100px;
+
+    text-align: center;
+}
+.LogInbox .ranoutofnames{
+    display: flex;
+}
+.LogInbox .passwordI{
+    margin-top: 10px; 
+    margin-left: 50px; 
+    margin-right: 0px;
+    position: absolute;
+    transform: translateY(57px);
+}
+.LogInbox .userI{
+    margin-top: 10px; 
+    margin-left: 50px;
+     margin-right: 0px;
+    position: absolute;
+    transform: translateY(2px);
+}
+
+ .logVis{
+    visibility: visible;
+}
+ .overlayLogInVis{
+   visibility: visible;
+}

@@ -1,0 +1,53 @@
+.totalstd{
+    animation: FromRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+
+
+}
+.CSIT{
+    animation: FromRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.6s;
+}
+.BCA{
+    animation: FromRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.7s;
+
+}
+.CLUB{
+
+    animation: FromRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.8s;
+
+}
+.col2{
+    animation: FromRightcol;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes FromRightcol{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes FromRight{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(15%);
+    }
+}
